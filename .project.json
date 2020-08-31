@@ -1,0 +1,35 @@
+{
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 25 Mar 2020 02:02:35 GMT"
+    },
+    {
+      "templateId": "servicecatalog.connectivityComponent",
+      "templateVersion": "0.0.0",
+      "dateTimeStamp": "Mon, 23 Mar 2020 02:06:18 GMT"
+    }
+  ],
+  "build": {
+    "targetFolder": "dist",
+    "sourceFolder": "webapp",
+    "excludeFolders": [
+      "test",
+      "localService"
+    ],
+    "excludeFiles": "",
+    "buildRequired": true
+  },
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/sap/ZJUN_ODATA_SRV/",
+    "metadataFilePath": "localService/metadata.xml",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "deploy": {
+    "destination": "S4HANA",
+    "name": "ZjoyFioriapp"
+  }
+}
