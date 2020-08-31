@@ -4,7 +4,7 @@
     {
       "path": "/sap/opu/odata",
       "target": {
-        "type": "destination",
+        "type": "S4HANA1",
          "name": "",  
         "entryPath": "/sap/opu/odata"
       },
